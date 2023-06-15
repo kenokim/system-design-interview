@@ -17,3 +17,6 @@ Redis 는  in memory key value data storage 로 1ms 미만의 R/W 기능을 제�
 엔지니어의 가장 중요한 역량 중 하나는 올바른 질문을 하는 것이다.
 
 
+### 7. 분산 시스템을 위한 유일 ID 생성기 설계
+
+티켓 서버: auto_increment 기능을 갖춘 데이터베이스 서버 하나를 집중형으로 사용한다. 이는 SPOF 가 될 위험이 있다.
